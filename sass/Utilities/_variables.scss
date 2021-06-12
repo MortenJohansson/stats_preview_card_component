@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+// COLORS
+// Primary
+$mainBackground: hsl(233, 47%, 7%);
+$cardBackground: hsl(244, 38%, 16%);
+$accent: hsl(277, 64%, 61%);
+// Neutral
+$mainHeading: hsl(0, 0%, 100%);
+$mainParagraph: hsla(0, 0%, 100%, 0.75);
+$statsHeading: hsla(0, 0%, 100%, 0.6);
+
+// FONT
+$mainHeadingFont: "Lexend-Deca", sans-serif;
+$paragraphFont: "Inter", sans-serif;
+// Fontsize
+$mainHeadingSize: 1.125rem;
+$paragraphSize: 1rem;

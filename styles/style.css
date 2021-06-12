@@ -1,1 +1,68 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+body {
+  background-color: #090b1a;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 45%;
+      grid-template-columns: 1fr 45%;
+  background-color: #1b1938;
+  width: 855px;
+  margin: 90px 85px;
+  border-radius: 25px;
+}
+
+.card__image {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  background: url(../images/image-header-desktop.jpg) center center/cover;
+  border-radius: 0 25px 25px 0;
+}
+
+.card__information {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  margin: 30px 50px;
+}
+
+.card__heading {
+  font-family: "Lexend-Deca", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.card__heading--span {
+  color: #aa5cdb;
+}
+
+.card__paragraph {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

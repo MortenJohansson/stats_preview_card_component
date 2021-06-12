@@ -1,0 +1,45 @@
+.card {
+  display: grid;
+  grid-template-columns: 1fr 45%;
+  background-color: $cardBackground;
+  width: 855px; //855px
+  margin: 90px 85px;
+  border-radius: 25px;
+
+  &__image {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background: url(../images/image-header-desktop.jpg) center center/cover;
+    border-radius: 0 25px 25px 0;
+  }
+
+  &__information {
+    grid-column: 1 / 2;
+    margin: 30px 50px;
+  }
+
+  &__heading {
+    font-family: $mainHeadingFont;
+    font-size: 30px;
+    font-weight: 700;
+    color: $mainHeading;
+
+    &--span {
+      color: $accent;
+    }
+  }
+
+  &__paragraph {
+    font-family: $paragraphFont;
+    font-size: $paragraphSize;
+    font-weight: 400;
+    color: $mainParagraph;
+  }
+
+  &__stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $mainHeading;
+  }
+}
